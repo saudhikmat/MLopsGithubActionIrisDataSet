@@ -1,6 +1,7 @@
 name: CI - Train and Save the model
 
 on:
+  workflow_dispatch:
   push:
     branches: [ main ]
   pull_request:
